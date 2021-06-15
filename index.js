@@ -36,3 +36,9 @@ let teo = "TEODOE";
 
 console.log(teo.toLowerCase());
 console.log(teo);
+
+let word = 'Rutabaga';
+
+console.log(word.length);
+console.log(word[8]); // undefined because its only 7 indices.
+console.log(word[7]); // this produces "a"
