@@ -42,3 +42,8 @@ let word = 'Rutabaga';
 console.log(word.length);
 console.log(word[8]); // undefined because its only 7 indices.
 console.log(word[7]); // this produces "a"
+
+let pet = 'cat';
+
+console.log(pet + 's');
+pet += 's';
